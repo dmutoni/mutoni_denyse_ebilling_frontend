@@ -1,0 +1,74 @@
+@import 'https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css';
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+.App {
+  font-family: QuickSand;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* font-size: calc(10px + 2vmin); */
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.testimonies {
+
+}
+
+.testimonies div div {
+  border: none;
+  box-shadow: 0 0 2px #00000080;
+  margin-left: 84px;
+  border-radius: 2px;
+  padding: 20px;
+  margin-top: 39px;
+}
+
+.testimonies div div h4, .testimonies h2,.testimonies h4{
+  text-align: center;
+}
+.testimonies .testimony-title{
+    font-weight: bold;
+    color: #164e88;
+ }
+
+.testimonies .testimony-body{
+  font-weight: 500;
+  text-align: justify;
+}
+
+.testimonies .testimony-by{
+  font-weight: bold;
+}
+
+.card{
+  width: 50%;
+  border: none;
+  box-shadow: 0 0 3px #0000006e;
+  padding: 29px;
+  text-align: left;
+  position: relative;
+  left: 277px;
+  top: 61px;
+  border-radius: 3px;
+  margin-bottom: 140px;
+}
